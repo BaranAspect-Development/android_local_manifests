@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="gh" fetch="https://github.com/" />
+    <remote name="gl" fetch="https://gitlab.com/" />
+
+    <!-- - Initial A16 Local Manifest - @BaranAspect -->
+
+    <!-- Main Trees From BaranAspect -->
+    <project name="BaranAspect-Development/android_device_xiaomi_topaz" path="device/xiaomi/topaz" remote="gh" revision="lineage-23.0" />
+    <project name="BaranAspect-Development/android_vendor_xiaomi_topaz" path="vendor/xiaomi/topaz" remote="gh" revision="lineage-23.0" />
+    <project name="BaranAspect-Development/android_kernel_xiaomi_topaz" path="device/xiaomi/topaz-kernel" remote="gh" revision="lineage-23.0" />
+
+    <!-- LineageOS Xiaomi SEPolicy Trees -->
+    <project name="rn124g-development/android_device_qcom_sepolicy_vndr_sm6225" path="device/qcom/sepolicy_vndr/sm6225" remote="gh" revision="sixteen" />
+    <project name="BaranAspect-Development/android_device_xiaomi_sepolicy" path="device/xiaomi/sepolicy" remote="gh" revision="lineage-23.0" />
+
+    <!-- LineageOS hardware trees -->
+    <project name="BaranAspect-Development/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.0" />
+    <project name="rn124g-development/hardware_qcom-caf_common" path="hardware/qcom-caf/common_custom" remote="gh" revision="sixteen" />
+
+    <!-- SM6225 trees -->
+    <project path="hardware/qcom-caf/sm6225/audio/agm" name="rn124g-development/android_hardware_qcom-caf_sm6225_audio_agm" remote="gh" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm6225/audio/pal" name="rn124g-development/android_hardware_qcom-caf_sm6225_audio_pal" remote="gh" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="rn124g-development/android_hardware_qcom-caf_sm6225_audio_primary-hal" remote="gh" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm6225/dataipa" name="rn124g-development/android_hardware_qcom-caf_sm6225_dataipa" remote="gh" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="rn124g-development/android_hardware_qcom-caf_sm6225_data-ipa-cfg-mgr" remote="gh" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm6225/display" name="rn124g-development/android_hardware_qcom-caf_sm6225_display" remote="gh" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm6225/media" name="rn124g-development/android_hardware_qcom-caf_sm6225_media" remote="gh" revision="sixteen" />
+
+    <!-- Extra trees Micam & Dolby -->
+    <project name="AspectPower/android_vendor_xiaomi_miuicamera-topaz" path="vendor/xiaomi/miuicamera-topaz" remote="gl" revision="lineage-23.0" />
+    <project name="BaranAspect-Development/android_device_xiaomi_miuicamera-topaz" path="device/xiaomi/miuicamera-topaz" remote="gh" revision="lineage-23.0" />
+    <project path="hardware/dolby" name="BaranAspect-Development/android_hardware_dolby" remote="gh" revision="bka" />
+
+</manifest>
