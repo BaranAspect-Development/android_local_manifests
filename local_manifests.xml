@@ -18,7 +18,7 @@
     <!-- LineageOS hardware trees -->
     <project name="BaranAspect-Development/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.0" />
     <remove-project path="hardware/qcom-caf/common" />
-    <project name="rn124g-development/hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gh" revision="sixteen" />
+    <project name="BaranAspect-Development/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gh" revision="sixteen" />
 
     <!-- SM6225 trees -->
     <project path="hardware/qcom-caf/sm6225/audio/agm" name="rn124g-development/android_hardware_qcom-caf_sm6225_audio_agm" remote="gh" revision="sixteen" />
